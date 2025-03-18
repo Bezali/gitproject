@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COBA Dog Show</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e9f7fd;
+        }
+        header {
+            background-color: #1a73e8;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+            float: left;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-top: 20px;
+        }
+        .show-details, .schedule, .competitors, .judges {
+            display: flex;
+            justify-content: space-between;
+        }
+        .show-details div, .schedule div, .competitors div, .judges div {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 30%;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        @media (max-width: 768px) {
+            .show-details div, .schedule div, .competitors div, .judges div {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>COBA Dog Show</h1>
+        <p>Experience the ultimate showcase of obedience, skill, and canine excellence!</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+OA        <a href="#about">About</a>
+OA        <a href="#schedule">Schedule</a>
+        <a href="#competitors">Competitors</a>
+OA        <a href="#judges">Judges</a>
+OAOA        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+OA        <section id="home" class="section">
+            <h2>Welcome to the COBA Dog Show</h2>
+OA            <p>The COBA Dog Show celebrates the finest obedience training and breed standards. Our show brings together the best canine competitors from all over the world in a test of agility, obedience, and breed excellence.</p>
+OA        </section>
+OA
+OA        <section id="about" class="section">
+            <h2>About the Show</h2>
+OA            <p>The Canine Obedience and Breed Assessment (COBA) Dog Show is an event that combines obedience trials and breed judging to showcase dogs' physical attributes and their obedience skills. The event emphasizes responsible breeding practices and effective training techniques for dogs.</p>
+        </section>
+OA
+        <section id="schedule" class="section">
+            <h2>Event Schedule</h2>
+            <div class="schedule">
+                <div>
+                    <h3>Day 1: Obedience Trials</h3>
+                    <p>9:00 AM - Obedience Trial for Working Dogs</p>
+                    <p>12:00 PM - Lunch Break</p>
+                    <p>1:30 PM - Obedience Trial for Herding Dogs</p>
+                    <p>3:00 PM - Obedience Trial for Sporting Dogs</p>
+                </div>
+                <div>
+                    <h3>Day 2: Breed Judging</h3>
+                    <p>9:00 AM - Group 1 Judging (Herding Dogs)</p>
+                    <p>12:00 PM - Group 2 Judging (Working Dogs)</p>
+                    <p>2:00 PM - Best in Show</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="competitors" class="section">
+            <h2>Meet the Competitors</h2>
+            <div class="competitors">
+                <div>
+                    <h3>Max the Border Collie</h3>
+                    <p>Max is a highly trained Border Collie known for his agility and impressive obedience in herding tasks.</p>
+                </div>
+                <div>
+                    <h3>Rex the German Shepherd</h3>
+                    <p>Rex is a German Shepherd specializing in tracking and protection. His training ensures exceptional performance in obedience trials.</p>
+                </div>
+                <div>
+                    <h3>Luna the Golden Retriever</h3>
+                    <p>Luna excels in agility and is known for her friendly and obedient nature, making her a top contender in sporting dog events.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="judges" class="section">
+            <h2>Our Esteemed Judges</h2>
+            <div class="judges">
+                <div>
+                    <h3>Dr. Sarah Green</h3>
+                    <p>A specialist in obedience training and behavior modification with over 15 years of experience in the dog show industry.</p>
+                </div>
+                <div>
+                    <h3>John Davis</h3>
+                    <p>Renowned for his expertise in evaluating breed standards, John has judged dog shows internationally and is an advocate for breed preservation.</p>
+                </div>
+                <div>
+                    <h3>Emily Lee</h3>
+                    <p>Emily has a deep understanding of canine agility and obedience, with a passion for promoting positive training practices.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>For more information or any inquiries, feel free to get in touch with us:</p>
+            <p><strong>Email:</strong> contact@cobashow.com</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Address:</strong> 789 Dog Show Blvd, Canine City, Country</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 COBA Dog Show | All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
